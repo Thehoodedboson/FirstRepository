@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="conformation.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="sortingFunction.cpp" />
   </ItemGroup>

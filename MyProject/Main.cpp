@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
+#include <utility>
 #include "includeFunctions.h"
+
 
 
 int main()
@@ -35,6 +37,8 @@ int main()
 
 	delete[] array;
 	
+	std::cout << "\nBranching worked!\n";
+	confirmation();
 
 	std::cin.ignore();
 	std::cin.get();

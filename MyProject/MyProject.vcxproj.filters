@@ -21,6 +21,11 @@
     <ClCompile Include="sortingFunction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+
+    <ClCompile Include="conformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includeFunctions.h">
