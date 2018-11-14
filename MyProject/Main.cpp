@@ -51,6 +51,7 @@ int main()
 
 	delete[] array;
 	
+	std::cout << "\nBranching worked!";
 
 	std::cin.ignore();
 	std::cin.get();
