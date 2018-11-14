@@ -1,23 +1,7 @@
 #include <iostream>
 #include <string>
 #include <utility>
-
-void sortedList(std::string *array, int numbOfNames)
-{
-	for (int alphabetical = 0; alphabetical < numbOfNames - 1; ++alphabetical)
-	{
-		int thisNumber = alphabetical;
-
-		for (int insideName = thisNumber + 1; insideName < numbOfNames; ++insideName)
-		{
-			if (array[insideName] < array[thisNumber])
-			{
-				thisNumber = insideName;
-			}
-		}
-		std::swap(array[alphabetical], array[thisNumber]);
-	}
-}
+#include "includeFunctions.h"
 
 int main()
 {
@@ -51,7 +35,8 @@ int main()
 
 	delete[] array;
 	
-	std::cout << "\nBranching worked!";
+	std::cout << "\nBranching worked!\n";
+	confirmation();
 
 	std::cin.ignore();
 	std::cin.get();
